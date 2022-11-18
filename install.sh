@@ -58,7 +58,7 @@ TIME() {
   }
 }
 
-[[ ! "$USER" == "root" ]] && {
+[[  "$USER" == "root" ]] && {
   echo
   TIME y "警告：请使用root用户操作!~~"
   echo
